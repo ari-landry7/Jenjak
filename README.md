@@ -5,4 +5,4 @@ example code
 Includes a simple flexbox example
 
 ## Navbar
-Includes a navigation bar ecample with hoverable tabs and an active page indicator
+Includes a navigation bar example with hoverable tabs and an active page indicator
