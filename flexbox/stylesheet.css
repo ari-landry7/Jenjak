@@ -9,8 +9,15 @@ header {
 }
 
 .card {
-    margin: 1em;
-    padding: 3em;
+    margin: .5em;
+    padding: 1em;
     border: 2px solid black;
     flex: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin: 1em;
+    max-width: 100%;
 }
