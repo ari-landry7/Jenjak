@@ -1,0 +1,16 @@
+article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header {
+    text-align: center;
+}
+
+.card {
+    margin: 1em;
+    padding: 3em;
+    border: 2px solid black;
+    flex: 25%;
+}
