@@ -7,7 +7,28 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Shopping Cart</h1>
+    <template id="product-template">
+        <section>
+            <article class="card-body">
+                <h3 class="product-name"></h3>
+                <h4 class="product-price"></h4>
+                <p class="product-description"></p>
+                <input type="button" value="Add to cart" id="add-to-cart" onclick="addToCart()">
+            </article>
+        </section>
+    </template>
+
+    <div id="product-list"></div>
+
+    <!-- <div id="form">
+        <label for="productName">Name:</label>
+        <input type="text" id="product-name" class="card-title" name="productName"><br>
+        <label for="product-price">Price:</label>
+        <input type="text" id="productPrice" class="card-text" name="productPrice"><br>
+        <input type="button" value="Submit" id="submit" onclick="post()">
+    </div> -->
+
+    <!--  <h1>Shopping Cart</h1>
     <div class="body">
         <div class="container">
             <h3>Products</h3>
@@ -27,7 +48,7 @@
             </div>
             <button class="buy-btn">PROCEED TO BUY</button>
         </div>
-    </div>
-    <script src="index.js"></script>
+    </div>-->
+    <script src="/shop/index.js"></script>
 </body>
 </html>
