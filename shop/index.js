@@ -1,11 +1,3 @@
-// const products = [
-//    { name: "Stickers", price: 1, id: 1, quantity: 1 },
-//    { name: "Holiday Cards", price: 3, id: 2, quantity: 1 },
-//    { name: "Coloring Books", price: 5, id: 3, quantity: 1 },
-//    { name: "Small Goblin Treasure Jar", price: 20, id: 4, quantity: 1 },
-//    { name: "Large Goblin Treasure Jar", price: 40, id: 5, quantity: 1 }
-// ];
-
 let products = [
     {
         id: 1,
@@ -59,19 +51,6 @@ function addCard(products) {
 
     document.querySelector('#product-list').appendChild(template)
 }
-
-// function post() {
-//     const newName = document.getElementById("productName").value;
-//     const newPrice = document.getElementById("productPrice").value;
-//     let newProduct = {
-//         name: newName,
-//         price: newPrice
-//     };
-//     addProducts.push(newProduct);
-//     addCard(newProduct);
-//     document.getElementById("producName").value = ''
-//     document.getElementById("productPrice").value = ''
-// }
 
 function getProducts() {
     return new Promise(resolve => {
