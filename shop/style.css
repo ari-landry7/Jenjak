@@ -1,0 +1,53 @@
+#product-list {
+    display: flex;
+    margin: .25em;
+    justify-content: space-between;
+}
+
+.card-body {
+    border: 2px solid rgb(4, 73, 4);
+    border-radius: 10%;
+    margin: .5em;
+    padding: .5em;
+    background-color:rgb(240, 248, 232)
+}
+
+#product-template {
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c471e;
+    position: sticky;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: #9ce99c;
+    color: black;
+}

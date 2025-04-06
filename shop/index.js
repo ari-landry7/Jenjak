@@ -60,8 +60,5 @@ function getProducts() {
     });
 }
 
-function addToCart() {
-    
-}
-
 getProducts().then((products) => products.forEach(product => addCard(product)))
+
