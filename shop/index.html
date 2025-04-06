@@ -10,8 +10,9 @@
     <template id="product-template">
         <article class="card-body">
             <h4><span class="product-name"></span> - Minimum <span class="product-price"></span></h4>
-            
             <p class="product-description"></p>
+            <p class="product-quantity" hidden></p>
+            <button onclick="addItem(this.quantity)">Add to Cart</button>
         </article>
     </template>
 
@@ -43,11 +44,11 @@
 
         <div class="form-group">
             <label for="sticker-quantity">Goblin stickers Quantity:</label>
-            <input type="number" id="sticker-quantity" name="sticker-quantity" value="0">
+            <input type="number" id="sticker-quantity" name="sticker-quantity" value="0" min="0">
         </div>
         <div class="form-group">
             <label for="card-quantity">Holiday Cards Quantity:</label>
-            <input type="number" id="cards-quantity" name="card-quantity" value="0">
+            <input type="number" id="cards-quantity" name="card-quantity" value="0" min="0">
         </div>
 
         <div class="form-group">
