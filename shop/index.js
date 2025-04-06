@@ -68,6 +68,11 @@ function getProducts() {
 
 getProducts().then((products) => products.forEach(product => addCard(product)))
 
+products.quantity = function addItem() {
+    let product = products[0]
+    product.quantity + 1
+}
+
 function log() {
     console.log(products)
 }

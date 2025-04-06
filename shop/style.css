@@ -13,9 +13,9 @@
 }
 
 #product-template {
-    flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
+    flex-basis: 10rem;
 }
 
 header {
