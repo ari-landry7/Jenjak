@@ -38,15 +38,15 @@ let products = [
 
 let addProducts = [...products]
 
-const reload = setInterval(log, 5000)
+// const reload = setInterval(log, 5000)
 
 function log() {
     console.log(addProducts)
 }
 
-function stopReload() {
-    clearInterval(reload)
-}
+// function stopReload() {
+//     clearInterval(reload)
+// }
 
 function addCard(products) {
     const template = document.getElementById("product-template").content.cloneNode(true);
@@ -60,7 +60,7 @@ function addCard(products) {
 
 function getProducts() {
     return new Promise(resolve => {
-        reload;
+        //  reload;
         resolve(addProducts)
 
     });
@@ -68,6 +68,6 @@ function getProducts() {
 
 getProducts().then((products) => products.forEach(product => addCard(product)))
 
-function addItem () {
-    
+function log() {
+    console.log(products)
 }
